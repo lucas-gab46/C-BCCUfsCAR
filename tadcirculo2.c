@@ -1,3 +1,6 @@
+
+// Bibliotecas
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -6,8 +9,8 @@
 const double PI = 3.14;
 
 typedef struct {
-    double x; // Coordenada x do ponto
-    double y; // Coordenada y do ponto
+    double x; 
+    double y; 
 } tPonto;
 // Raio do círculo e  Ponto central do círculo
 typedef struct {
@@ -53,7 +56,7 @@ void escrevaCirculo(tCirculo circulo) {
     printf("Coordenada x = %.2lf\n", circulo.centro.x);
     printf("Coordenada y = %.2lf\n", circulo.centro.y);
     printf("Raio = %.2lf\n", circulo.raio);
-}
+} tPonto
 
 /*
 Sub-rotina: areaCirculo
